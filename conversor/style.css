@@ -46,3 +46,7 @@ footer {
     width: 100%;
     max-width: 900px;
 }
+
+.sep > p {
+    margin-bottom: 10px;
+}
