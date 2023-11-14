@@ -12,6 +12,11 @@ header {
     background-color: #2b2c358a;
 }
 
+main {
+    display: flex;
+    flex: 1;
+}
+
 footer {
     display: flex;
     align-items: center;
