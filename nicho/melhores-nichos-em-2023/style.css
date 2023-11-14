@@ -14,7 +14,7 @@ header {
 
 main {
     display: flex;
-    flex: 1;
+    flex: flex;
 }
 
 footer {
