@@ -50,3 +50,7 @@ footer {
 .sep > p {
     margin-bottom: 10px;
 }
+
+.sep > h2 {
+    margin-bottom: 5px;
+}
