@@ -46,6 +46,7 @@ footer {
     justify-content: center;
     width: 80%;
     max-width: 900px;
+    margin-bottom: 5px;
 }
 
 .sep > p {
