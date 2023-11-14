@@ -28,6 +28,17 @@
                 <strong>Porcentagem = (Parte / Todo) × 100</strong>
             </p>
         </div>
+        <div class="sep">
+
+    <label for="parte">Parte:</label>
+    <input type="text" id="parte" placeholder="Insira a parte">
+
+    <label for="todo">Todo:</label>
+    <input type="text" id="todo" placeholder="Insira o todo">
+
+    <button onclick="calcularPorcentagem()">Calcular Porcentagem</button>
+
+        </div>
         <article class="ad">
             <script type="text/javascript">
                 atOptions = {
@@ -44,5 +55,24 @@
     <footer>
         developer by Icaro
     </footer>
+        <script>
+        function calcularPorcentagem() {
+            // Obtenha os valores dos campos de entrada
+            var parte = parseFloat(document.getElementById('parte').value);
+            var todo = parseFloat(document.getElementById('todo').value);
+
+            // Verifique se os valores são válidos
+            if (isNaN(parte) || isNaN(todo)) {
+                alert('Por favor, insira valores numéricos válidos.');
+                return;
+            }
+
+            // Calcule a porcentagem
+            var porcentagem = (parte / todo) * 100;
+
+            // Exiba o resultado
+            alert('A porcentagem é: ' + porcentagem.toFixed(2) + '%');
+        }
+    </script>
 </body>
 </html>
