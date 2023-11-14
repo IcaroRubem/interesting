@@ -15,7 +15,7 @@ header {
 main {
     display: flex;
     flex: flex;
-    height: 100%;
+    height: calc(100vh - 120px);
 }
 
 footer {
