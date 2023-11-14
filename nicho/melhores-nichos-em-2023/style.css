@@ -14,8 +14,8 @@ header {
 
 main {
     display: flex;
-    flex: flex;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 120px); 
+    margin: 10px 0 10px 0;
 }
 
 footer {
