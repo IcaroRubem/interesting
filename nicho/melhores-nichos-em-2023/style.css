@@ -10,12 +10,12 @@ header {
     justify-content: center;
     height: 60px;
     background-color: #2b2c358a;
-} 
+}
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
-    background-color: #2b2c358a;
+    background-color: #5c699e8a;
 }
