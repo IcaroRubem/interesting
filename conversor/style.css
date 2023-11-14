@@ -30,7 +30,10 @@ footer {
 }
 
 .ad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0.5em;
     width: 100%;
-    background-color: #c7cad5;
+    background-color: #c5c8d080;
 }
